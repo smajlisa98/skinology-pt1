@@ -1,0 +1,30 @@
+ //dinamicki ispis blokova za slajder
+ var ispisT='';
+var blok=document.getElementById("carousel4");
+ var sliketima=["images/z1.jpg","images/z2.jpg","images/z4.jpg",
+ "images/z7.jpg","images/z8.jpg","images/z9.jpg","images/z10.jpg",
+ "images/z11.jpg","images/z12.jpg"];
+ for(i=0;i<sliketima.length;i++){
+    var ime=["Marija Jevtic","Jelena Ruzic","Petra Mišic",
+    "Rada Cvetkovic",
+   "Milica Jonjic","Tara Petrovic","Larisa Mehonic"
+   ,"Amila Rajic","Malina Bujišic"];
+   for(var im=0;im<ime.length;im++){
+    var zanimanje=["farmaceut","dermatolog","dermatolog"
+    ,"laborant","prodavac","prodavac","savetnik","prodavac","prodavac"];
+    for(z=0;z<zanimanje.length;z++){
+        if(i==im && im==z){
+            ispisT+=`<div class="item">
+            <div>
+                <img src="${sliketima[i]}" alt="radnik"
+                style="width:118.8px;height:118.8px;"/>
+            </div>
+            <p class="podebljano">${ime[im]}</p>
+            <p class="smanjeno">${zanimanje[z]}</p>
+        </div>`;
+    }
+        }
+    }
+   }
+ 
+ blok.innerHTML=ispisT;

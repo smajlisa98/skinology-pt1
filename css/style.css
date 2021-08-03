@@ -1,0 +1,702 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Century Gothic', sans-serif;
+color:#3A9B95;
+font-size:16px;
+}
+
+
+.kliner{
+	clear:both;
+}
+
+body{
+	background-color:#F6F8F9;
+}
+
+
+a:hover{
+	background-color:#CBF0EE;
+	
+} 
+
+
+
+
+p{
+font-size:18px;}
+
+.smanjeno{
+	text-align: center;
+	font-size:14px;
+}
+
+h2{
+	font-size:30px;
+	font-weight: bold;
+    text-align:center;
+}
+
+h3{
+	font-size:21px;
+	text-align:center;
+}
+
+
+.podebljano{
+	font-weight: bold;
+	text-align: center;
+	font-size:14px;
+}
+
+
+#okvir{
+	width:100%;
+	z-index:-999;
+/*	border: 1px solid black;  */
+	
+}
+#prvideo {
+	/*border-bottom:1px solid #3A9B95; */
+	width:100%;
+ /*	border: 2px solid red;  */
+}
+
+#logo{
+	margin:0 auto;
+	 width:300px;
+	 height:150px;
+	/* border: 2px solid black;  */
+	
+}
+#logoslika{
+	width:300px;
+	height:150px;
+}
+
+#meni{
+	padding-top:1px;
+	width:100%;
+/*	border: 2px solid blue; */
+	height:50px;
+	margin:0 auto;
+	background-color:#F6F8F9;
+	position:sticky;
+	top:0px;
+	z-index:1000;
+/*	border-bottom:1px solid #3A9B95; */
+}
+
+#meni ul li a {
+	text-align:center;
+	text-decoration:none;
+	padding-top:13px;
+	padding-bottom:9px;
+	padding-left:7px;
+	padding-right:7px;
+	
+}
+#meni ul {
+	padding-top:14px;
+	list-style-type:none;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row; 
+}
+#meni ul li{
+	padding-top:5px;
+	padding-bottom:100px;
+	padding-left:3px;
+	
+}
+
+#slika{
+	width:800px;
+	height:450px;
+	margin:0 auto; 
+/*	 border:2px solid black;  */
+	background-image:url('../images/13.jpg'); 
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed; 
+}
+
+
+
+
+#sredina{
+	width:100%;
+/*	border:1px solid red;  */
+}
+
+#prviclanak{
+	width:100%;
+	height:340px;
+/*	border:1px solid red; */
+	
+}
+
+#tekstostrani{
+	padding-top:35px;
+	width:1100px;
+	height:300px;
+	/*border:1px solid blue; */
+	margin:0 auto;
+	text-align:center;
+}
+
+.okvirzatekst{
+	border:3px solid white;
+	border-radius: 3% 3%;
+}
+
+#drugiclanak{
+	width:100%;
+	height:500px;
+	/*border:1px solid red; */
+	margin:0 auto;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-left:260px;
+	padding-right:260px;
+	text-align:center;
+}
+
+.tip{
+	width:270px;
+	height:350px;
+	border:2px solid #CBF0EE;
+	border-radius: 3% 3%;
+	float:left;
+	margin-left:2px;
+	padding-top:15px;
+	background-color:white;
+}
+
+.pop{
+	height:370px;
+	border:1px solid #3A9B95;
+	background-color:#CBF0EE ;
+}
+
+#slikatipa1{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+/*	border:1px solid red; */
+	border-radius:90%;
+	background-image:url('../images/dry.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#slikatipa2{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+/*	border:1px solid red; */
+	border-radius:90%;
+	background-image:url('../images/oil.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#slikatipa3{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+/*	border:1px solid red; */
+	border-radius:90%;
+	background-image:url('../images/comb.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#otipu1{
+	padding-top:20px;
+	margin:0 auto;
+	width:180px;
+	height:170px;
+	border:1px solid #CBF0EE ;
+	border-radius: 3% 3%;
+	background-color:#CBF0EE ;
+}
+
+
+#otipu2{
+	padding-top:35px;
+	margin:0 auto;
+	width:180px;
+	height:170px;
+	border:1px solid #CBF0EE ;
+	border-radius: 3% 3%;
+	background-color:#CBF0EE ;
+}
+#otipu3{
+	padding-top:25px;
+	margin:0 auto;
+	width:180px;
+	height:170px;
+	border:1px solid #CBF0EE ;
+	border-radius: 3% 3%;
+	background-color:#CBF0EE ;
+}
+
+#proizvodi{
+	width:1000px;
+	margin:0 auto;
+/*	border:1px solid red; */
+}
+
+
+#forma{
+	width:100%;
+	height:500px;
+/*	border:1px solid blue; */
+	margin-bottom:20px;
+	background-image:url('../images/3.jpg');
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+#strelica{
+	width:40px;
+	height:40px;
+/*	border:1px solid red; */
+	background-color: #3A9B95;
+	top:0;
+	text-align: center;
+	float:right;
+	border-radius:12% 12%;
+	position:sticky;
+	z-index:1000;
+}
+
+/*#blokslika{
+	width:600px;
+	height:400px;
+	border:1px solid pink;
+	float:left;
+	background-image:url('../images/12.jpg');  dodati strelice za galeriju pored slika
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+}*/
+
+#blokforma{
+	width:600px;
+	height:400px;
+	border:1px solid #CBF0EE ;
+	border-radius:9% 9%;
+	float:right;
+	margin-right:10px;
+	padding-left:12px;
+	background-color:#CBF0EE;
+}
+
+#footer{
+	background-color:#CBF0EE;
+	width:100%;
+	height:100px;
+}
+
+#okvik{
+	width:450px;
+	height:55px;
+/*	border:1px solid blue; */
+	margin:0 auto;
+}
+
+.ik{
+	width:50px;
+	height:50px;
+	float:right;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:9% 9%;
+	border:1px solid #3A9B95;
+	text-align:center;
+}
+
+::placeholder{
+ color:#CBF0EE;
+ }
+ 
+ #dugmici{
+ display: flex;
+ justify-content:space-around;
+ align-items:center;
+ padding-top:20px;
+}
+
+.potvrda{
+	border-radius:12% 12%;
+	background-color:#CBF0EE;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.drzac{
+ width:50%;
+ margin-bottom:5px;
+ float:left;
+}
+
+
+.tekstf{
+ width:65%;
+ margin-bottom:5px;
+ border:1px solid #3A9B95;
+ border-radius:12% 12%;
+ padding:5px;
+ margin-top:10px;
+}
+
+.drzac ul{
+	list-style-type:none;
+	padding-left:20px;
+}
+
+.drzac ul li{
+	padding-left:20px;
+}
+
+
+#mojaslika{
+	width:150px;
+	height:150px;
+/*	border:1px solid black; */
+	float:left;
+	margin-left: 3px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 3px;
+	background-image:url('../images/jk.jpg');
+	background-size:contain;
+	border-radius:9%;
+}
+
+
+
+
+.border{
+	border:1px solid #ff0000;
+   border-radius:12% 12%;
+}
+
+.greska{
+	color: red;
+}
+
+.greska1{
+	border:1px solid red;
+	border-radius: 3% 3%;
+}
+
+#brendovi{
+/*	border:1px solid red; */
+	width:100%;
+	height:700px;
+}
+
+
+
+#drzaclogo{
+/*	border:1px solid blue; */
+	width:1200px;
+	margin:0 auto;
+	padding-left: 60px;
+	padding-right: 15px;
+	padding-top: 15px;
+	height:600px;
+	display: flex;
+	flex-wrap:wrap;
+
+
+}
+
+.logobrenda{
+	border:1px solid  white; 
+	width:200px;
+	height:200px;
+	border-radius:21% 21% ;	
+	margin-top:60px;
+	margin-right: 30px;
+	margin-left: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	flex:wrap;
+	
+}
+
+
+#nasprostor{
+/*	border:1px solid red;  */
+	width:100%;
+	height:600px;
+}
+#leviprostor{
+	padding-top:10px;
+/*	border:1px solid green;  */
+	width:50%;
+	float:left;
+	padding-left: 2px;
+	height:470px;
+	
+}
+#desniprostor{
+	padding-top: 50px;
+/*	border:1px solid blue;  */
+	width:50%;
+	float:right;
+	height:470px;
+}
+#oprostoru{
+	width:60%;
+	margin:0 auto;
+	background-color: white;
+	padding-left:10px;
+	padding-right: 10px;
+	height: 90%;
+	border:1px solid #3A9B95;
+	border-radius: 12%;
+	text-align: center;
+}
+
+
+#kartica{
+	width:600px;
+	border:1px solid #3A9B95;
+	margin:0 auto;
+	height:400px;
+	border-radius: 3%;
+	padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1351px){
+	.tip{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:1273px){
+	#drugiclanak{
+		height:1180px;
+	}
+}
+
+@media screen and (max-width:994px){
+	#brendovi{
+		margin-top:10px;
+	}
+	#prvired{
+		width:50%;
+		margin:0 auto;
+		height:550px;
+	}
+	#drugired{
+		width:50%;
+		margin:0 auto;
+		height:550px;
+	}
+	#trecired{
+		width:50%;
+		margin:0 auto;
+		height:550px;
+	}
+}
+
+@media screen and (max-width:948px){
+	#snizenje{
+		height:580px;
+	}
+	#okvirsnizeno1{
+		width:490px;
+		height:370px;
+		margin:0 auto;
+	}
+}
+
+@media screen and (max-width:752px){
+	#prviclanak{
+		height:500px;
+	}
+	#tekstostrani{
+		width:50%;
+		font-size:10px;
+		height:500px;
+	}
+	#brendovi{
+		width:100%;
+		margin-top:10px;
+	}
+
+	#prvired{
+		width:30%;
+		
+		height:900px;
+	}
+	#drugired{
+		width:30%;
+		
+		height:900px;
+	}
+	#trecired{
+		width:30%;
+		
+		height:1000px;
+	}
+}
+
+@media screen and (max-width:658px){
+	#prviclanak{
+		height:600px;
+	}
+
+	#drugiclanak{
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+		padding-right:100px;
+	}
+
+	.tip{
+		width:250px;
+		text-align:center;
+		font-size:8px;
+		margin:0 auto;
+
+	}
+	#brendovi{
+		margin-top:70px;
+	}
+
+}
+
+@media screen and (max-width:627px){
+	#forma{
+		margin-top:150px;
+		text-align:center;
+	}
+
+	#blokforma{
+		width:400px;
+		height:430px;
+		font-size:10px;
+	}
+
+	#snizenje{
+		display:none;
+	}
+}
+@media screen and (max-width:550px){
+	#drugiclanak{
+		display:none;
+	}
+}
+@media screen and (max-width:506px){
+	#okvik{
+		display:none;
+	}
+}
+@media screen and (max-width:500px){
+	#prviclanak{
+		height:700px;
+	}
+}
+	 
+
+
+
+
+ /*@media screen and (min-width: 483px){
+	#tekstostrani{
+		width:400px;
+		margin:0 auto;
+		text-align:center;
+		font-size: 10px;
+	}
+
+	#drugiclanak{
+		display:none;
+	}
+
+	#proizvodi{
+	display:none; }
+
+	#snizenje{
+		display:none;
+	}
+
+	#forma{
+		margin-top:150px;
+		text-align:center;
+	}
+
+	#blokforma{
+		width:400px;
+		height:430px;
+		margin-right:40px;
+		font-size:10px;
+	}
+
+	#okvik{
+		display:none;
+	} 
+
+	
+}   */
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
